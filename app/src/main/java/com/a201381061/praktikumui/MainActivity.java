@@ -1,5 +1,6 @@
 package com.a201381061.praktikumui;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,13 +40,21 @@ public class MainActivity extends AppCompatActivity {
 
         if(isiUsername.equals("ADMIN")&&isPassword.equals("12345")){
             //INI KETIKA USER BERHASIL LOGIN
-            Toast.makeText(this,"Login Berhasil",Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this,"Login Berhasil",Toast.LENGTH_SHORT).show();
+
+            //INTENT MERUPAKAN BLABLALBAL
+            Intent masukHome = new Intent(MainActivity.this,HomeActivity.class);
+            masukHome.putExtra("username",isiUsername);
+            masukHome.putExtra("bonus","5 juta rupiah");
+            masukHome.putExtra("dataangka",1000);
+            startActivity(masukHome);
+
+
         }else{
             //INI KETIKA USER GAGAL LOGIN
 
             Toast.makeText(this,"Login Gagal",Toast.LENGTH_SHORT).show();
         }
-
     }
 
 
