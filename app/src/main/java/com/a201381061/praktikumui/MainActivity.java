@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
             //INI KETIKA USER BERHASIL LOGIN
             //Toast.makeText(this,"Login Berhasil",Toast.LENGTH_SHORT).show();
 
-            //INTENT MERUPAKAN BLABLALBAL
             Intent masukHome = new Intent(MainActivity.this,HomeActivity.class);
             masukHome.putExtra("username",isiUsername);
             masukHome.putExtra("bonus","5 juta rupiah");
