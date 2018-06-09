@@ -1,8 +1,10 @@
-package com.a201381061.praktikumui;
+package com.a201381061.praktikumui.Praktikum1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.a201381061.praktikumui.R;
 
 public class HomeActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.a201381061.praktikumui;
+package com.a201381061.praktikumui.Praktikum1;
 
 
 import android.app.Application;

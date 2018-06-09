@@ -1,4 +1,4 @@
-package com.a201381061.praktikumui;
+package com.a201381061.praktikumui.Praktikum1;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.a201381061.praktikumui.R;
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.Response;
